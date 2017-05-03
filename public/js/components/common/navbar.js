@@ -21,7 +21,7 @@ let navbar = {
                 })
             }
 
-        }) 
+        })
         $interval(() => {this.clock = moment().locale('fr').format("dddd d MMM YYYY, HH:m, s")}, 1000)
     }]
 }
