@@ -9,6 +9,10 @@ let algoModule = angular.module('app.algo', [])
 		abstract: true,
 		template: '<algo1></algo1>'
 	})
-}])
+	.state('algo.algo1', {
+		url: '/algo1',
+		template: '<algo1></algo1>'
+	})
+}]).name
 
 export default algoModule

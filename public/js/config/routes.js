@@ -31,9 +31,9 @@ export default ['$stateProvider', '$urlRouterProvider', '$locationProvider', ($s
                 }
             }]
         })
-        .state('algo1', {
+        .state('app.algo1', {
             url: '/algo1',
-            templateUrl: '<algo1></algo1>'
+            template: '<algo1></algo1>'
         })
 }]
 

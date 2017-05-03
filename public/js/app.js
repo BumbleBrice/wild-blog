@@ -15,11 +15,11 @@ import services from './services/services.md'
 import common from './components/common/common.md'
 import login from './components/login/login.md'
 import blog from './components/blog/blog.md'
-import blog from './components/algo/algo.md'
+import algo from './components/algo/algo.md'
 
 console.log("In app.js")
 console.log(services)
- 
+
 angular.module('app', [
     angularUIRouter,
     angularCookies,
